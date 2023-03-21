@@ -7,7 +7,7 @@ class Ligavel {
     fun desligar(){
 
     }
-    fun estaLigado(){
-
+    fun estaLigado() : Boolean{
+        return true
     }
 }

@@ -2,7 +2,7 @@ package pt.ulusofona.cm.kotlin.challenge.models
 
 import java.util.*
 
-abstract class Pessoa {
+class Pessoa {
     val nome: String
     val veiculos = mutableListOf<Veiculo>()
     val dataDeNascimento: Date

@@ -12,15 +12,16 @@ class Posicao {
     }
 
     fun Posicao(x: Int, y: Int) {
-
+        print("x: $x | y: $y")
     }
 
     fun alterarPosicaoPara(x: Int, y: Int) {
-
+        this.x = x
+        this.y = y
     }
 
     fun toString(x: Int, y: Int): String? {
-        return "Posicao | y: $x | x: $y"
+        return "Posicao | x: $x | y: $y"
     }
 
 

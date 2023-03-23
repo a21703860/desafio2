@@ -1,13 +1,15 @@
 package pt.ulusofona.cm.kotlin.challenge.interfaces
 
 class Ligavel {
-    fun ligar(){
+    fun ligar() {
 
     }
-    fun desligar(){
+
+    fun desligar() {
 
     }
-    fun estaLigado() : Boolean{
+
+    fun estaLigado(): Boolean {
         return true
     }
 }
